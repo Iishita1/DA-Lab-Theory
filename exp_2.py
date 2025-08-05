@@ -28,7 +28,7 @@ print(df_t2,'\n')
 df.ffill=df.fillna(method='ffill')
 print(df.ffill,'\n')
 
-#add estimated value to missing value Technique 5(Fill with backward fill)
+#add estimated value to missing value Technique 5(Fill with backward fill) no 2 consecutive rows should be missing
 df.bfill=df.fillna(method='bfill')
 print(df.bfill,'\n')
 
